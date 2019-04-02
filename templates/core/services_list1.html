@@ -1,0 +1,16 @@
+{% for gg in object_list %}
+    <ul>
+      <li>{{gg.id }}</li>
+      <li>{{gg.servicename}}
+      <li>{{gg.price}} 
+      </li>
+      {% if gg.image %}
+      <li>
+      <a href=" "
+      <img src="{{gg.image.url}}" width="200" height="200">
+      </a>
+      </li>
+    {% endif %}
+    </ul>
+    
+{% endfor %}
