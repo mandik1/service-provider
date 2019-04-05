@@ -7,8 +7,7 @@ class Appointmentform(ModelForm):
     
     class Meta:
         model = Appointement
-        fields = ('service','when','address')
-
+        exclude = ('user',)
 
 # class SearchForm(forms.Form):
 #     query = forms.CharField()

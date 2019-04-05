@@ -24,6 +24,6 @@ class Services(models.Model):
 class Appointement(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     service = models.ForeignKey(Services, on_delete=models.CASCADE)
-    when = models.DateTimeField()
+    when = models.DateField()
     address = models.CharField(max_length=25, null=True, blank=True)
-
+    objects = models.Manager()  
