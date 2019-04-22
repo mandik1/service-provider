@@ -224,7 +224,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 .carousel-caption h1.second_heading {
     color:#ffcb0f;
-    margin-bottom:35px;
+    margin-bottom:25px;
 }
 .carousel-caption > h3 {
     color: #fff;
@@ -239,6 +239,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     line-height: 28px;
 }
 .btn.know_btn {
+    margin-top: 20px;
     background: #ffcb0f none repeat scroll 0 0;
     border-radius: 30px;
     color: #fff;
@@ -333,7 +334,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 .service_item > h3 {
     margin: 25px 0 15px;
 }
-.service_item .btn.know_btn {
+.service_ active .btn.know_btn {
     margin: 20px 0 100px;
 }
 
@@ -971,3 +972,4 @@ footer::after {
 
 
 }
+

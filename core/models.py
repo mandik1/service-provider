@@ -27,3 +27,17 @@ class Appointement(models.Model):
     when = models.DateField()
     address = models.CharField(max_length=25, null=True, blank=True)
     objects = models.Manager()  
+
+
+class PaymentMode(models.Model):
+    modename = models.CharField(max_length=50)
+
+    def __str__(self):
+        return self.modename
+
+
+# class Payment(models.Model):
+#     cardholder = models.CharField(30)
+#     cardnumber = models.IntegerField(30)
+#     validitiy = models.DateField()
+    

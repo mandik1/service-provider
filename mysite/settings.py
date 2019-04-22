@@ -25,7 +25,7 @@ SECRET_KEY = '594ypn$o)d@2)z6u#)7k1^zrso&tzx!&ql77kk458dk#&u=m^n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mandeep123.pythonanywhere.com']
 
 
 # Application definition
@@ -123,7 +123,6 @@ STATICFILES_DIRS=(
     os.path.join(BASE_DIR,'static'),
 )
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
-
 
 
 MEDIA_URL = '/media/' 

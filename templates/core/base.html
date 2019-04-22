@@ -26,16 +26,6 @@
             .margin_top{
                 margin-top:6% !important;
             }
-            .border-style {
-            margin-top:10px;
-            margin-bottom:10px;
-            text-align:center;
-            padding-top: 15px;
-            padding-bottom: 15px;
-            background-color: #ffcb0f;
-        }
-
-
         </style>
     </head>
     <body>
@@ -116,9 +106,9 @@
                                 <h3>We Provide Experienced Technicians</h3>
                                 <h1>Home Appliance Services</h1>
                                 <h1 class="second_heading">Whenever Or Wherever</h1>
+                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
                                 <a  class="btn know_btn" href="{% url 'login' %}" >LogIn</a>
                                 <a  class="btn know_btn" href="{% url 'signup' %}" >Register</a>
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
                             </div>					
                         </div>
                     </div>
@@ -128,10 +118,10 @@
                             <div class="carousel-caption">
                                 <h3>We Provide Experienced Technicians</h3>
                                 <h1>Home Appliance Services</h1>
-                                <h1 class="second_heading">Whenever Or Wherever</h1>
+                                <h1 class="second_heading">Whenever Or Anywhere</h1>
+                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
                                 <a  class="btn know_btn" href="{% url 'login' %}" >LogIn</a>
                                 <a  class="btn know_btn" href="{% url 'signup' %}" >Register</a>
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
                             </div>					
                         </div>
                     </div>
@@ -141,11 +131,10 @@
                             <div class="carousel-caption">
                                 <h3>We Provide Experienced Technicians</h3>
                                 <h1>Home Appliance Services</h1>
-                                <h1 class="second_heading">Whenever Or Whenever</h1>
+                                <h1 class="second_heading">Whenever Or Anywhere</h1>
+                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
                                 <a  class="btn know_btn" href="{% url 'login' %}" >LogIn</a>
                                 <a  class="btn know_btn" href="{% url 'signup' %}" >Register</a>
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-
                             </div>					
                         </div>
                     </div>
@@ -165,14 +154,26 @@
             </div><!-- Carousel end-->
 
         </section>
-
+       <!-- #services h2 {
+            margin: 10px 0 10px;
+            text-align: center;
+            border: 1px solid;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        } -->
 	
         <!-- Services -->
         <section id="services">
             <div class="container">
+                <!-- <div class="row"> -->
+                    <!-- <div class="col-md-5"></div>
+                    <div class="col-md-3"> -->
+                    <h2 style="margin-top:10px;margin-bottom:10px;text-align:center;border:1px solid;padding-top: 15px;padding-bottom: 15px; background-color: #ffcb0f">OUR SERVICES</h2>
+                <!-- </div>
+                    <div class="col-md-4"></div> -->
+                <!-- </div> -->
                 
-                    <h2 class="border-style">OUR SERVICES</h2>
-               
+                 
                 <div class="row">
                 {% for gg in object_list %}       
                     <div class="col-md-4">

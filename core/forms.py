@@ -9,5 +9,8 @@ class Appointmentform(ModelForm):
         model = Appointement
         exclude = ('user',)
 
+
+    
+
 # class SearchForm(forms.Form):
 #     query = forms.CharField()
